@@ -1,0 +1,10 @@
+pipeline {
+     agent any
+     stages {
+         stage('WELCOME') {
+              steps {
+                 echo "First Program from git repo"
+              }
+         }
+     }
+}
